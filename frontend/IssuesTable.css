@@ -1,0 +1,60 @@
+/* IssuesTable.css */
+.issues-container {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filter-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .severity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .severity.low {
+    color: #faad14;
+  }
+  
+  .severity.medium {
+    color: #fa8c16;
+  }
+  
+  .severity.high {
+    color: #f5222d;
+  }
+  
+  /* Purple theme customization */
+  .ant-btn-primary {
+    background-color: #722ed1;
+    border-color: #722ed1;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #531dab;
+    border-color: #531dab;
+  }
